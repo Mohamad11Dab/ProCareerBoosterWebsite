@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.js": "/ProCareerBoosterWebsite/static/js/main.88855d34.js",
+    "main.js": "/ProCareerBoosterWebsite/static/js/main.5e0082a5.js",
     "static/media/bg-pro-career.jpg": "/ProCareerBoosterWebsite/static/media/bg-pro-career.d95f9290698649420856.jpg",
     "index.html": "/ProCareerBoosterWebsite/index.html",
-    "main.88855d34.js.map": "/ProCareerBoosterWebsite/static/js/main.88855d34.js.map"
+    "main.5e0082a5.js.map": "/ProCareerBoosterWebsite/static/js/main.5e0082a5.js.map"
   },
   "entrypoints": [
-    "static/js/main.88855d34.js"
+    "static/js/main.5e0082a5.js"
   ]
 }
