@@ -23,7 +23,7 @@ import Icon from "@mui/material/Icon";
 import MKBox from "components/MKBox";
 import MKTypography from "components/MKTypography";
 
-function RotatingCardFront({ color, image, icon, title, description }) {
+function RotatingCardFront({ color, image, icon, title, description, secondDescription }) {
   return (
     <MKBox
       display="flex"
@@ -56,6 +56,11 @@ function RotatingCardFront({ color, image, icon, title, description }) {
         <MKTypography variant="body2" color="white" opacity={0.8}>
           {description}
         </MKTypography>
+        {secondDescription && (
+          <MKTypography variant="body2" color="white" opacity={0.8} mt={1}>
+            {secondDescription}
+          </MKTypography>
+        )}
       </MKBox>
     </MKBox>
   );
@@ -83,6 +88,7 @@ RotatingCardFront.propTypes = {
   icon: PropTypes.node,
   title: PropTypes.node.isRequired,
   description: PropTypes.node.isRequired,
+  secondDescription: PropTypes.node,
 };
 
 export default RotatingCardFront;

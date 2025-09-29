@@ -23,12 +23,24 @@ import CountUp from "react-countup";
 import MKBox from "components/MKBox";
 import MKTypography from "components/MKTypography";
 
-function DefaultCounterCard({ color, count, title, description, ...rest }) {
+function DefaultCounterCard({
+  color,
+  count,
+  title,
+  description,
+  secondDescription,
+  thirdDescription,
+  ...rest
+}) {
   return (
     <MKBox p={2} textAlign="center" lineHeight={1}>
       <MKTypography variant="h1" color={color} textGradient>
-        <CountUp end={count} duration={1} {...rest} />
+        <CountUp end={count} duration={2} enableScrollSpy scrollSpyOnce />
+        {rest.suffix && (
+          <span style={{ fontSize: "0.7em", marginLeft: "0.1em" }}>{rest.suffix}</span>
+        )}
       </MKTypography>
+
       {title && (
         <MKTypography variant="h5" mt={2} mb={1}>
           {title}
@@ -37,6 +49,16 @@ function DefaultCounterCard({ color, count, title, description, ...rest }) {
       {description && (
         <MKTypography variant="body2" color="text">
           {description}
+        </MKTypography>
+      )}
+      {secondDescription && (
+        <MKTypography variant="body2" color="text">
+          {secondDescription}
+        </MKTypography>
+      )}
+      {thirdDescription && (
+        <MKTypography variant="body2" color="text">
+          {thirdDescription}
         </MKTypography>
       )}
     </MKBox>
@@ -65,6 +87,8 @@ DefaultCounterCard.propTypes = {
   count: PropTypes.number.isRequired,
   title: PropTypes.string,
   description: PropTypes.string,
+  secondDescription: PropTypes.string,
+  thirdDescription: PropTypes.string,
 };
 
 export default DefaultCounterCard;
