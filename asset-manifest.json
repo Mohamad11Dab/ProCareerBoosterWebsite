@@ -1,0 +1,11 @@
+{
+  "files": {
+    "main.js": "/ProCareerBoosterWebsite/static/js/main.8cc638da.js",
+    "static/media/bg-pro-career.jpg": "/ProCareerBoosterWebsite/static/media/bg-pro-career.d95f9290698649420856.jpg",
+    "index.html": "/ProCareerBoosterWebsite/index.html",
+    "main.8cc638da.js.map": "/ProCareerBoosterWebsite/static/js/main.8cc638da.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.8cc638da.js"
+  ]
+}
