@@ -51,7 +51,6 @@ function Counters() {
               suffix="$"
               title="CV Only"
               description="Professionally written CV"
-              secondDescription="+ 20$ for International Clients"
               thirdDescription="+ 30$ for 48 hour delivery"
             />
           </Grid>
@@ -61,7 +60,6 @@ function Counters() {
               suffix="$"
               title="Cover Letter Only"
               description="Customized cover letter"
-              secondDescription="+ 10$ for International Clients"
               thirdDescription="+ 30$ for 48 hour delivery"
             />
           </Grid>
@@ -71,7 +69,6 @@ function Counters() {
               suffix="$"
               title="Bundle"
               description="CV + Cover Letter"
-              secondDescription="+ 30$ for International Clients"
               thirdDescription="+ 30$ for 48 hour delivery"
             />
           </Grid>
@@ -81,7 +78,6 @@ function Counters() {
               suffix="$"
               title="Complex CVs"
               description="Technical/specialized CVs"
-              secondDescription="+ 20$ for International Clients"
               thirdDescription="+ 30$ for 48 hour delivery"
             />
           </Grid>
@@ -117,22 +113,13 @@ function Counters() {
           </Grid>
         </Grid>
         <Divider orientation="horizontal" sx={{ display: { xs: "none", md: "block" }, ml: 0 }} />
-        <Grid container item xs={12} lg={8} sx={{ mx: "auto" }}>
-          <Grid item xs={12} md={6}>
+        <Grid container item xs={12} lg={12} sx={{ mx: "auto" }}>
+          <Grid item xs={12} md={12}>
             <DefaultCounterCard
               count={7}
               suffix="$/page"
               title="Proofreading / Editing"
               description="For Local Clients"
-              secondDescription="+ 20% total for 48 hour delivery"
-            />
-          </Grid>
-          <Grid item xs={12} md={6}>
-            <DefaultCounterCard
-              count={10}
-              suffix="$/page"
-              title="Proofreading / Editing"
-              description="for International Clients"
               secondDescription="+ 20% total for 48 hour delivery"
             />
           </Grid>

@@ -15,6 +15,7 @@ Coded by www.creative-tim.com
 
 // @mui material components
 import Card from "@mui/material/Card";
+import Container from "@mui/material/Container";
 
 // Material Kit 2 React components
 import MKBox from "components/MKBox";
@@ -26,6 +27,7 @@ import DefaultFooter from "examples/Footers/DefaultFooter";
 // Presentation page sections
 import Counters from "pages/Presentation/sections/Counters";
 import Information from "pages/Presentation/sections/Information";
+import AboutUs from "./components/BuiltByDevelopers";
 
 // Routes
 import routes from "routes";
@@ -63,6 +65,9 @@ function Presentation() {
           boxShadow: ({ boxShadows: { xxl } }) => xxl,
         }}
       >
+        <Container sx={{ mt: 4 }}>
+          <AboutUs />
+        </Container>
         <Information />
       </Card>
       <Card
