@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.js": "./static/js/main.fc1c4009.js",
-    "static/media/bg-pro-career.jpg": "./static/media/bg-pro-career.d95f9290698649420856.jpg",
-    "index.html": "./index.html",
-    "main.fc1c4009.js.map": "./static/js/main.fc1c4009.js.map"
+    "main.js": "/static/js/main.1ccaf944.js",
+    "static/media/bg-pro-career.jpg": "/static/media/bg-pro-career.d95f9290698649420856.jpg",
+    "index.html": "/index.html",
+    "main.1ccaf944.js.map": "/static/js/main.1ccaf944.js.map"
   },
   "entrypoints": [
-    "static/js/main.fc1c4009.js"
+    "static/js/main.1ccaf944.js"
   ]
 }
