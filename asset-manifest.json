@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.js": "/static/js/main.51e80b0a.js",
+    "main.js": "/static/js/main.424f4474.js",
     "static/media/bg-pro-career.jpg": "/static/media/bg-pro-career.d95f9290698649420856.jpg",
     "index.html": "/index.html",
-    "main.51e80b0a.js.map": "/static/js/main.51e80b0a.js.map"
+    "main.424f4474.js.map": "/static/js/main.424f4474.js.map"
   },
   "entrypoints": [
-    "static/js/main.51e80b0a.js"
+    "static/js/main.424f4474.js"
   ]
 }
