@@ -45,7 +45,7 @@ function AboutUs() {
             Career Documents that Open Doors
           </MKTypography>
           <MKTypography variant="body1" color="white" opacity={0.8} mb={2}>
-            With over three years of experience in writing, editing, and career services, We have
+            With over three years of experience in writing, editing, and career services, we have
             crafted more than 3,000 CVs and 1,000 cover letters for clients across divers
             industries. Our work also includes website content and Academic thesis spanning
             literature and philosophy to engineering. Each Project is tailored to reflect the

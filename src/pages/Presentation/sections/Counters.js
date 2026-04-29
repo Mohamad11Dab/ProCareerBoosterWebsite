@@ -113,14 +113,22 @@ function Counters() {
           </Grid>
         </Grid>
         <Divider orientation="horizontal" sx={{ display: { xs: "none", md: "block" }, ml: 0 }} />
-        <Grid container item xs={12} lg={12} sx={{ mx: "auto" }}>
-          <Grid item xs={12} md={12}>
+        <Grid container item xs={12} lg={6} sx={{ mx: "auto" }}>
+          <Grid item xs={12} md={6}>
             <DefaultCounterCard
               count={7}
               suffix="$/page"
               title="Proofreading / Editing"
-              description="For Local Clients"
+              description="Grammar, spelling, structure, and clarity check"
               secondDescription="+ 20% total for 48 hour delivery"
+            />
+          </Grid>
+          <Grid item xs={12} md={6}>
+            <DefaultCounterCard
+              count={30}
+              suffix="$"
+              title="CV Review Online Session"
+              description="CV improvements and feedback session (30 min)"
             />
           </Grid>
         </Grid>
